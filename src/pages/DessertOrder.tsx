@@ -36,6 +36,7 @@ const DessertOrder: React.FC = () => {
     const handleStartNewOrder = () => {
         console.log('Starting a new order...');
         setShowModal(false);
+        setCart([])
     };
 
 
